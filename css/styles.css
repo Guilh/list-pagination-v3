@@ -25,7 +25,7 @@
      to one of the CSS variables above, or to an 
      R,G,B value of the color of your choice. 
      Mind the readability and color contrast ratio */
-  --accent-clr: var(--deepskyblue);
+  --accent-clr: var(--dodgerblue);
   
 }
 
@@ -120,8 +120,8 @@ body {
 }
 
 .student-list {
-	border-top: 1px solid rgba(var(--accent-clr), 0.2);
-	border-bottom: 1px solid rgba(var(--accent-clr), 0.2);
+	border-top: 1px solid rgba(var(--accent-clr), 0.1);
+	border-bottom: 1px solid rgba(var(--accent-clr), 0.1);
 }
 
 .student-item {
@@ -183,9 +183,9 @@ body {
 
 .pagination li a {
 	text-decoration: none;
-	color: black;
+	color: rgba(var(--th-gry), 0.9);
 	padding: 3px 8px;
-	margin-left: 5px;
+	margin-left: 10px;
 	background: white;
 	border-radius: 3px;
 	border: 1px solid rgba(var(--accent-clr), 0.3);
@@ -227,7 +227,7 @@ body {
   }
   
 	.student-item {
-		padding: 25px 15px;
+		padding: 25px 15px 25px;
   }
   
 	.student-details .avatar {
