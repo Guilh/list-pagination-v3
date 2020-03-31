@@ -34,7 +34,7 @@
   left: 0;
   right: 0;
   bottom: 0;
-  background-color: #ccc;
+  background-color: rgba(var(--accent-clr), 0.8);
   box-shadow: 1px -1px 5px rgba(250, 250, 250, 0.2) inset, -1px 1px 5px rgba(250, 250, 250, 0.2) inset;
   -webkit-transition: .4s;
   transition: .4s;
@@ -55,6 +55,7 @@
 input:checked + .slider {
   background-color: #2196F3;
   background-color: rgba(var(--bg-clr), 0.2);
+  background-color: rgba(var(--accent-clr), 0.8);
 }
 
 input:checked + .slider:before {
@@ -74,6 +75,6 @@ input:checked + .slider:before {
 
 @media screen and (min-width: 768px) {
   .toggle-container {
-    margin-top: -55px;
+    margin-top: -59px;
   }
 }
