@@ -53,8 +53,8 @@
 }
 
 input:checked + .slider {
-  background-color: #2196F3;
-  background-color: rgba(var(--bg-clr), 0.2);
+  /* background-color: #2196F3;
+  background-color: rgba(var(--bg-clr), 0.2); */
   background-color: rgba(var(--accent-clr), 0.8);
 }
 
