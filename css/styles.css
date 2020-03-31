@@ -208,6 +208,17 @@ body {
 	color: #fff;
 }
 
+.no-results {
+	font-family: 'Nunito', sans-serif;
+	display: block;
+	font-size: 1.5rem;
+	color: rgba(var(--th-gry), 0.7);
+	width: 500px;
+	margin-top: 15px;
+	margin-bottom: 15px;
+	/* border: 1px solid red; */
+}
+
 @media screen and (min-width: 768px) {
 
 	.page-header-wrapper {
@@ -268,7 +279,7 @@ body {
 	.page-header-wrapper {
 		padding: 20px 10px;
 		margin-bottom: 35px;
-		background: rgba(var(--th-gry), 0.1);
+		background: rgba(var(--th-gry), 0.05);
 		border-bottom: 1px solid rgba(var(--accent-clr), 0.1);
 	}
 

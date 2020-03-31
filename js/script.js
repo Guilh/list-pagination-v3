@@ -139,7 +139,7 @@ const search = () => {
       appendPageLinks(matches);   
    } else {
       linkContainer.innerHTML = '';
-      studentContainer.innerHTML = `<h2>Sorry, no results when searching for "${searchInput.value}".</h2>`;
+      studentContainer.innerHTML = `<li class="no-results">Sorry, no results when searching for &ldquo;${searchInput.value}&rdquo;</li`;
    }
 }
 
