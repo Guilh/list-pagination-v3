@@ -188,7 +188,7 @@ body {
 	text-decoration: none;
 	color: rgba(var(--accent-clr), 1);
 	padding: 3px 8px;
-	background: white;
+	background: rgba(var(--bg-clr), 1);
 	border: 1px solid rgba(var(--accent-clr), 0.5);
 	border-right: none;
 	transition: 0.4s;
